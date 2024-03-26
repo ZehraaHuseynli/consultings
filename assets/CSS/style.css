@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+header .headerTop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D2D3E;
+}
+.headerTop .contanier{
+    width: 85%;
+    height: 45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTop .topText{
+    width: 65%;
+    height: auto;
+}
+.headerTop .topText p{
+   font-family: sans-serif; 
+   font-style: normal;
+   font-size: 12px;
+   font-weight: 100;
+   color:rgb(255, 255, 255);
+   line-height: 18px;
+}
+.headerTop .topIcon{
+    width: 15%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.headerTop .topIcon:hover{
+    color: rgb(255, 33, 67);
+    cursor: pointer;
+}
+.headerBottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.headerBottom .contanier{
+    width: 85%;
+    height: 90;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerBottom .contanier nav{
+    width: 35%;
+}
+.headerBottom .contanier nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.headerBottom .contanier nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.headerBottom .contanier nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(20, 67, 92);
+    line-height: 24px;
+    display: inline-block;
+}
+.headerBottom .contanier nav ul li a:hover{
+    cursor: pointer;
+}
+.aaa a{
+    .dropDowntt .dropDown{
+        display: none;
+    }
+}
+
+.aaa a:hover{ 
+.dropDowntt{
+    display: block;
+}
+}
+
+.dropDown{
+    width: 10%;
+    background-color: #0D2D3E;
+    color: #DCDFDC;
+    position: absolute;
+   flex-direction: column;
+   display: none;
+}
+
+#commitedToSuccess{
+ background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ min-height:128vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#commitedToSuccess .contanier{
+    width: 75%;
+    height:auto;
+}
+.contanier .commitedToSuccessText{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+ .contanier .commitedToSuccessText .commitedTo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.contanier .commitedToSuccessText .commitedTo .commitedToLine{
+    border:  rgb(235, 86, 108);
+    width: 80px;
+    height: 2px;
+    background-color: rgb(235, 86, 108);
+}
+#commitedToSuccess .contanier .commitedTo h3{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(235, 86, 108);
+    line-height: 27px;
+}
+.contanier .commitedToSuccessText .commitedTotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+ .contanier .commitedToSuccessText .commitedTotext h1{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 71px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    line-height: 85px;
+    width: 90%;
+}
+ .contanier .commitedToSuccessText .commitedTotext p{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    line-height: 30px; 
+    width: 85%;
+}
+button{
+    background-color: rgb(235, 86, 108);
+    color: white;
+    border: none;
+    padding: 20 35;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    line-height: 0px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #DCDFDC;
+    color: black;
+}
+#ourTopServices{
+    width: 100%;
+   min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ourTopServices .contanier{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier .ourTopServicesText{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.contanier .ourTopServicesText .ourServicesText{
+    width: 80%;  
+}
+.ourTopServicesText .ourServicesText .ourLineText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin-bottom: 20px;
+}
+.ourLineText .ourServicesLine{
+    border:  rgb(235, 86, 108);
+    width: 80px;
+    height: 2px;
+    background-color: rgb(235, 86, 108);
+}
+.ourLineText h3{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(235, 86, 108);
+    line-height: 27px;
+}
+.ourServicesText h1{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(9, 44, 63);
+    line-height: 60px;
+}
+.ourTopServicesText .ourTopServicesCards{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourTopServicesText .ourTopServicesCards .ourTopServicesCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 29%;
+    gap:30px;
+    font-family: sans-serif;
+    margin: 25px 10px;
+    padding: 40px 0px;
+    height: auto;
+    background-color: #ffffff;
+    border: 20px solid white;
+}
+.ourTopServicesCards .ourTopServicesCard:hover{
+    background-color: #FF2143;
+    color:rgb(255, 255, 255);
+}
+.ourTopServicesCards .ourTopServicesCard h2{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0D2D3E;
+    line-height: 29px;
+}
+.ourTopServicesCards .ourTopServicesCard h2:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.ourTopServicesCards .ourTopServicesCard p{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D2D3E;
+    line-height: 30px;
+    width: 90%;
+}
+.ourTopServicesCards .ourTopServicesCard p:hover{
+color:  rgb(255, 255, 255);
+}
+#ourBestServices{
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ourBestServices .contanier{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.contanier .ourBestServicess{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.ourBestServicess .ourBestServicesImg{
+    width: 45%;
+}
+
+.ourBestServicess .ourBestServicesText{
+    width: 45%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+.ourBestServicesText .ourBestServicesTextLine{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourBestServicesTextLine .ourServicesTextLine{
+    border:  rgb(235, 86, 108);
+    width: 80px;
+    height: 2px;
+    background-color: rgb(235, 86, 108);
+}
+.ourBestServicesTextLine h3{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(206, 206, 206) ;
+    line-height: 27px;
+}
+.ourBestServicesText h1{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    line-height: 60px;
+}
+.ourBestServicesText h2{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    line-height: 30px; 
+}
+.ourBestServicesText p{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size:15px;
+    font-weight: 400;
+    color: rgb(206, 206, 206);
+    line-height: 30px; 
+}
+.ourBestServicesText button{
+    background-color: #FF2143;
+    color: #FFFFFF;
+    width: 45%;
+}
+.ourBestServicesText button:hover{
+    cursor: pointer;
+    background-color:#FFFFFF;
+    color: rgb(0, 0, 0);
+}
+#ourPortfoliosOfCases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+#ourPortfoliosOfCases .contanier{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 50px 0;
+}
+.contanier .ourPortfoliosCases{
+    width: 90%;
+}
+.ourPortfoliosCases .ourPortfoliosCasesLines{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourPortfoliosCasesLines .ourPortfoliosCasesLine{
+    border:  rgb(235, 86, 108);
+    width: 80px;
+    height: 2px;
+    background-color: rgb(235, 86, 108);
+}
+.ourPortfoliosCasesLines h3{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(235, 86, 108);
+    line-height: 27px;
+}
+.ourPortfoliosCases h1{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(9, 44, 63);
+    line-height: 60px;
+    margin: 20px 0;
+}
+.ourPortfoliosCases .ourPortfoliosCards{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.ourPortfoliosCards .ourPortfoliosCard{
+   width: 50%; 
+   height: auto;
+   margin: 40px 0;
+}
+.ourPortfoliosCard .ourPortfoliosCardImg{
+    width: 80%;
+}
+.ourPortfoliosCard .ourPortfoliosText{
+    background-color: #FFFFFF;
+    width: 80%;
+    padding: 40px 0px;
+}
+.ourPortfoliosCard .ourPortfoliosText .ourPortfoliosCardLine{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourPortfoliosCardLine .ourCardLine{
+    border:  rgb(235, 86, 108);
+    width: 80px;
+    height: 2px;
+    background-color: rgb(235, 86, 108);
+}
+.ourPortfoliosCardLine h6{
+    font-family: sans-serif; 
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 300;
+    color:rgb(233, 77, 101);
+    line-height: 13px;
+}
+.ourPortfoliosCard .ourPortfoliosText a{
+  text-decoration: none;
+  font-family: sans-serif; 
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color:rgb(20, 67, 92);
+  line-height: 30px;
+}
+.ourPortfoliosCard .ourPortfoliosText a:hover{
+    cursor: pointer;
+}
+@media screen and(min-width: 300px) and(max-width: 536px){
+  .headerTop{
+    display: none;
+  }
+  .headerBottom{
+    width: 100%;
+    height: 39px;
+  }
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
